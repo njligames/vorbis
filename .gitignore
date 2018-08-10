@@ -52,3 +52,4 @@ Release-appletvos/
 Release-appletvsimulator/
 Release-iphoneos/
 Release-iphonesimulator/
+.build/
