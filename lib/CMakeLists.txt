@@ -68,9 +68,9 @@ include_directories(.)
 include_directories(${OGG_INCLUDE_DIRS})
 
 if (NOT BUILD_FRAMEWORK)
-    add_library(vorbis SHARED ${VORBIS_HEADERS} ${VORBIS_SOURCES})
-    add_library(vorbisenc SHARED ${VORBISENC_SOURCES})
-    add_library(vorbisfile SHARED ${VORBISFILE_SOURCES})
+    add_library(vorbis  ${VORBIS_HEADERS} ${VORBIS_SOURCES})
+    add_library(vorbisenc  ${VORBISENC_SOURCES})
+    add_library(vorbisfile  ${VORBISFILE_SOURCES})
 
     get_version_info(VORBIS_VERSION_INFO "V_LIB_CURRENT" "V_LIB_AGE" "V_LIB_REVISION")
     set_target_properties(vorbis PROPERTIES SOVERSION ${VORBIS_VERSION_INFO})

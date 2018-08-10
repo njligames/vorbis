@@ -40,3 +40,15 @@ lib/test_sharedbook
 test/test
 .DS_Store
 _build/
+Debug-appletvos/
+Debug-appletvsimulator/
+Debug-iphoneos/
+Debug-iphonesimulator/
+MinsizeRel-iphoneos/
+MinsizeRel-iphonesimulator/
+RelWithDebugInfo-iphoneos/
+RelWithDebugInfo-iphonesimulator/
+Release-appletvos/
+Release-appletvsimulator/
+Release-iphoneos/
+Release-iphonesimulator/
