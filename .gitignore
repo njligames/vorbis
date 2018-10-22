@@ -53,3 +53,7 @@ Release-appletvsimulator/
 Release-iphoneos/
 Release-iphonesimulator/
 .build/
+MinsizeRel-appletvos/
+MinsizeRel-appletvsimulator/
+RelWithDebugInfo-appletvos/
+RelWithDebugInfo-appletvsimulator/
